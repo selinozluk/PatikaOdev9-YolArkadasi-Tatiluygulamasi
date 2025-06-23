@@ -95,7 +95,7 @@ while (continueApp)
 
 
     // Kullanıcı başka bir tatil planlamak ister mi?
-    System.Console.WriteLine("Başka bir tatil planlamak ister misiniz? (E/H)");
+    System.Console.WriteLine("Yeni bir tatil planlamak ister misiniz? (E/H)");
     // Kullanıcı başka bir tatil planlamak isterse "e" yazar, aksi halde uygulama biter
     string again = System.Console.ReadLine().ToLower();
 
@@ -103,6 +103,6 @@ while (continueApp)
     if (again != "e") // Eğer kullanıcı "e" dışında bir şey girdiyse
     {
         continueApp = false; // Döngü bitiyor
-        System.Console.WriteLine("İyi günler, tekrar bekleriz!");
+        System.Console.WriteLine("Görüşmek üzere, tekrar bekleriz!");
     }
 }
