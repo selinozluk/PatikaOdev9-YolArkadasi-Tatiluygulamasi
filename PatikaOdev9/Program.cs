@@ -87,11 +87,12 @@ while (continueApp)
     // Kullanıcıya tatil planı özet olarak gösteriliyor
     System.Console.WriteLine("\nTatil Planınız:");
     System.Console.WriteLine("-----------------------------");
-    System.Console.WriteLine("Seçilen lokasyon : " + location);
-    System.Console.WriteLine("Kişi sayısı      : " + personCount);
-    System.Console.WriteLine("Ulaşım türü      : " + (travelCostPerPerson == 1500 ? "Kara Yolu" : "Hava Yolu"));
-    System.Console.WriteLine("Toplam tutar     : " + totalCost + " TL");
+    System.Console.WriteLine($"Seçilen lokasyon : {location}");
+    System.Console.WriteLine($"Kişi sayısı      : {personCount}");
+    System.Console.WriteLine($"Ulaşım türü      : {(travelCostPerPerson == 1500 ? "Kara Yolu" : "Hava Yolu")}");
+    System.Console.WriteLine($"Toplam tutar     : {totalCost} TL");
     System.Console.WriteLine("-----------------------------\n");
+
 
     // Kullanıcı başka bir tatil planlamak ister mi?
     System.Console.WriteLine("Başka bir tatil planlamak ister misiniz? (E/H)");
